@@ -92,3 +92,33 @@ The user needs to have a smooth and rich experience while using the scope. For t
 ### File Structure
 ### Future Features
 
+---
+
+## 5. Housing
+
+### Abstract and Description
+The scope hardware needs to be compact and portable to fit the use case. This subsystem is designed to keep all the components closely stacked while providing ventilation, easy access to ports and a form factor that allows for easy handling.
+
+### Components
+- 3 pin plug and cable
+- Probes (Ch1, Ch2, GND)
+- USB Cable
+- Main Housing
+  - Casing with appropriate ports
+  - Fans for ventilation
+  - On Off switch
+  - On status LED indicator
+
+### Constraints
+- **Dimensions:** l x w x h (in mm)
+- **Weight:** under 250gms
+- **Ports:** AC 3 pin, Bullet connectors for signal probes, USB
+- **Assembly:** Snap fit or screws
+- **Ventilation:** 12v fan to push hot air out, vent holes to let cool air in
+- **Material:** Light, rigid plastic
+
+(need to define the following)
+### Material
+### Manufacturing Process
+### Assembly Considerations
+### Labelling and Compliance
