@@ -16,6 +16,8 @@ f) Option to add horizontal and vertical markers
 
 g) Snapshot capturing and exporting
 
+h) Legend for the signal graphs
+
 ---
 
 ## Idea 1 (Skeuomorphic to bench oscilloscopes)
