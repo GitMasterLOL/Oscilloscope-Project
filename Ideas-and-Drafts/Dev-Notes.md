@@ -21,6 +21,10 @@ To power the subsystem that performs input signal voltage scaling (±12V to MCU 
 3. Rectifies and filters it
 4. Regulates it to the required voltage (±15V, GND)
 
+### Constraints
+1. High efficiency (>60%)
+2. Stable ±15v lines
+
 (Need to define the following)
 ### Electrical Specifications
 ### Operating Parameters
@@ -42,6 +46,10 @@ The subsystem that communicates with the laptop to visualise the signal needs th
 3. Biases this ±1.67v signal with +1.67v to achieve a 0 to 3.3v range signal
 4. Sends this scaled, biased signal to the MCU
 
+### Constraints
+1. Summing inverter + inverter setup
+2. Dual channel support (or use two sets of single channel)
+
 (Need to define the following)
 ### Electrical Specifications
 ### Operating Parameters
@@ -60,6 +68,13 @@ The subsystem that displays the signal to the user requires a fast stream of sig
 ### Functions
 1. Convert the analog signal into a digital signal through an ADC (external or inbuilt)
 2. Transfer the data via USB
+
+### Constraints
+1. High Clock frequency
+2. High Sampling rate
+3. 12-14 bit adc (min.)
+4. High speed usb support (dk if this is a thing or if it depends on the clock rate)
+5. Do not need bluetooth, wifi, LCD etc
 
 (Need to define the following)
 ### Electrical Specifications
@@ -82,6 +97,12 @@ The user needs to have a smooth and rich experience while using the scope. For t
 3. Read the users' commands via the UI which include on/off state, pause/play state, frequency scale amplitude scale, ypos of each channel etc
 4. Process the data according to the requirements and display on the screen (Plotting)
 5. Provide the users with instructions on how to use the tool
+
+### Constraints
+1. Intuitive design
+2. USB data input
+3. Math functions support
+4. Help button
 
 (Need to define the following)
 ### Features and Components
@@ -116,6 +137,8 @@ The scope hardware needs to be compact and portable to fit the use case. This su
 - **Assembly:** Snap fit or screws
 - **Ventilation:** 12v fan to push hot air out, vent holes to let cool air in
 - **Material:** Light, rigid plastic
+- **Power Switch**
+- **On/Off state LED**
 
 (need to define the following)
 ### Material
