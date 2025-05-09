@@ -71,7 +71,7 @@ The subsystem that displays the signal to the user requires a fast stream of sig
 
 ---
 
-## 4. Front-End
+## 4. Web-App
 
 ### Abstract and Description
 The user needs to have a smooth and rich experience while using the scope. For this, a Single Page Web Application is required. This subsystem receives the digital signal data and provides an interface to interact with the output signal wave on the screen
