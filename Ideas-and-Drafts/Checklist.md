@@ -8,7 +8,7 @@
 
 ## To Learn
 - How to take power input (look at laptop charger internals)
-- PCB design for op amp
+- PCB design for op amp (mixed signal)
 - 
 
 ---
