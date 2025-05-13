@@ -25,7 +25,3 @@ h) Legend for the signal graphs
 a) Artistic but not crowded
 
 b) Buttons mimic real bench-top oscilloscopes
-
----
-
-## Idea 2
