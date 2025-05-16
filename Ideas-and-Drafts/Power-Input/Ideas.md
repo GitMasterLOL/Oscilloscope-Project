@@ -39,4 +39,7 @@
 - needs heatsink
 
 ## Design Possibilty for filtering:
-Noisy DC -(LDO)->-(ferrite bead)->-(decoupling cap)-> Smooth DC
+Noisy DC -(pi)->-(LDO)->-(ferrite bead)->-(decoupling cap)-> Smooth DC
+Pi filter: kills high freq noise
+LDO: kills low freq noise
+Ferrite: kills any remaining noise, prevents noise injection from opamp ckt
