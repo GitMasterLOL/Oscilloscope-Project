@@ -1,5 +1,5 @@
 Serial No.,Part Name,Part Number,Description,Qty,Vendor,Unit Price,Total Price
-1,Flyback smps (rectifier + buck),,Power adapter,1,,,
+1,Flyback smps (rectifier + buck),,Power adapter,1,,,2600
 2,OpAmp IC,741,OpAmps for analog part,4,,,
 3,Teensy 4.1,,"MCU, 12bit, ",,,,
 4,Probes,,,,,,
