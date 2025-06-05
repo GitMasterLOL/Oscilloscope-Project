@@ -1,6 +1,6 @@
 # Ideas
 1. 230VAC -(AD-DC converter 5v output)-> Noisy 5V DC -(Filtering)-> Smooth 5VDC -(LM2662 switching regulator)-> 15VDC -(LM2662 switching regulator)-> ±15VDC
-2. 230VAC -(AD-DC converter 5v output)-> Noisy 15VDC -(Filtering)-> Smooth 15VDC -(LM2662 switching regulator)-> ±15VDC
+2. 230VAC -(AD-DC converter 15v output)-> Noisy 15VDC -(Filtering)-> Smooth 15VDC -(LM2662 switching regulator)-> ±15VDC
 
 ## AC-DC regulator 5V output modules:
 - Hi-Link HLK-5M05
